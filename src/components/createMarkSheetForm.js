@@ -15,7 +15,7 @@ class CreateMarkSheetForm extends Component {
        computerScience: 0
     }
   }
-  // [values, setValues] = useState(initialValues);
+  
   handleInputChange = event => {
 
     const target = event.target;
@@ -40,7 +40,7 @@ class CreateMarkSheetForm extends Component {
               <label>
             Roll No.
           </label>
-          <input name="rollno" value={this.state.rollno}   onChange={this.handleInputChange.bind(this)} required='true'  pattern='[a-zA-Z0-9]+' />
+          <input name="rollno" value={this.state.rollno}   onChange={this.handleInputChange.bind(this)} required  pattern='[a-zA-Z0-9]+' />
           </div>
           </fieldset> 
        
