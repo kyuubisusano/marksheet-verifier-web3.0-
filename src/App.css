@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 
 .App-logo {
   height: 40vmin;
@@ -11,10 +17,10 @@
   border: none;
   border-radius: 12px;
   min-width: 250px;
-  color: #c0aaaa;
-  font-size: 18px;
+  color: #dcdcdc;
+  font-size: 20px;
   cursor: pointer;
-  background-color: #363e41;
+  background-color: #588c9d;
   box-shadow: 0 0 10px #666;
 }
 
@@ -23,10 +29,10 @@
   border: none;
   border-radius: 12px;
   min-width: 250px;
-  color: #c0aaaa;
-  font-size: 18px;
+  color: #dcdcdc;
+  font-size: 20px;
   cursor: pointer;
-  background-color: #363e41;
+  background-color: #588c9d;
   box-shadow: 0 0 10px #666;
   margin: 30px;
 }
@@ -66,10 +72,13 @@ label {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e3e3c6;
+  background-image: 
+  radial-gradient(at 80% 90%, rgb(226, 212, 158) 0, transparent 52%),
+  radial-gradient(at 31% 0, rgb(226, 212, 158) 0, transparent 52%);
   min-height: 100vh;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -87,4 +96,9 @@ label {
   to {
     transform: rotate(360deg);
   }
+}
+
+.home-pg {
+
+  background-color: #61dafb;
 }
